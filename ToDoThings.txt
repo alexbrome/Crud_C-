@@ -1,0 +1,4 @@
+﻿1.-Cuando actualizo un curso la lista de empleados se borra la lista ,cuando anyado otro alumno se vuelve a cargar
+2.-Poner fotos de fondo de pantalla(varias).
+3.-Estilos en general
+4.-El boton back de actualizar hay que ponerlo en el borde superior izquierdo, sale encima del texto.

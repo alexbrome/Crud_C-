@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "trabajointerfaces (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "trabajointerfaces (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

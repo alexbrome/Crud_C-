@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="trabajointerfaces.Vistas.AlumnoTemplate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:trabajointerfaces.Vistas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid 
+        Background="BlueViolet">
+        <StackPanel
+        Margin="10"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center">
+
+            <!--  Titulo  -->
+            <TextBlock
+            x:Name="titulo"
+            Grid.Row="0"
+            Margin="0,0,0,10"
+            Style="{ThemeResource HeaderTextBlockStyle}"
+            Text="Registrar Alumno" />
+
+            <!-- Advertencia de Validacion Alumno   -->
+            <InfoBar
+            x:Name="alert"
+            Margin="0,0,0,20"
+            IsOpen="False" />
+
+
+            <!--  DNi  -->
+            <TextBox
+              x:Name="txtDni"
+              Margin="0,0,0,10"
+              GotFocus="GfDni"
+              PlaceholderText="Dni"
+             TextChanged="TcDni" />
+            <!--  Validacion dni  -->
+            <TextBlock
+                x:Name="errorDni"
+                Margin="0,0,0,10"
+                Foreground="Red"
+                Style="{ThemeResource CaptionTextBlockStyle}"
+               Visibility="Collapsed" />
+
+
+            <!--  Nombre  -->
+            <TextBox
+            x:Name="txtNombre"
+            Margin="0,0,0,10"
+            GotFocus="GfName"
+            PlaceholderText="Nombre"
+            TextChanged="TcName" />
+            <!--  Validacion Nombre  -->
+            <TextBlock
+            x:Name="errorNombre"
+            Margin="0,0,0,10"
+            Foreground="Red"
+            Style="{ThemeResource CaptionTextBlockStyle}"
+            Visibility="Collapsed" />
+
+
+            <!--  Apellido -->
+            <TextBox
+            x:Name="txtApellido"
+            Margin="0,0,0,10"
+            GotFocus="GfApellidoFee"
+            PlaceholderText="Apellido"
+            TextChanged="TcApellidoFee" />
+            <!--  Validacion Apellido  -->
+            <TextBlock
+            x:Name="errorApellido"
+            Margin="0,0,0,10"
+            Foreground="Red"
+            Style="{ThemeResource CaptionTextBlockStyle}"
+            Visibility="Collapsed" />
+
+            
+            <!--  Lista de Cursos  -->
+            <ComboBox
+            x:Name="cmbCursos"
+            Margin="0,0,0,10"
+            DisplayMemberPath="Nombre"
+            ItemsSource="{x:Bind Cursos, Mode=OneWay}"
+            PlaceholderText="Seleccione un Curso"
+            SelectionChanged="CmbCursos_SelectionChanged" />
+            <!--  Validacion Curso  -->
+            <TextBlock
+            x:Name="errorCurso"
+            Margin="0,0,0,10"
+            Foreground="Red"
+            Style="{ThemeResource CaptionTextBlockStyle}"
+            Visibility="Collapsed" />
+
+            
+            
+            <!--  Boton guardar  -->
+            <Button
+            x:Name="btnGuardar"
+            Grid.Row="11"
+            Background="Green"
+            Click="btn_RegistrarALumno"
+            Content="Guardar Alumno"
+            Foreground="White"
+            IsEnabled="False" />
+        </StackPanel>
+    </Grid>
+</Page>
