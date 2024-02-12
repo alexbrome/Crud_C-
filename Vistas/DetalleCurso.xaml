@@ -37,8 +37,8 @@
                     </Button>
 
                     <!--  Botón de editar  Curso -->
-                    <TextBlock Margin="850,80,0,0" Foreground="White">Modificar este curso</TextBlock>
-                    <!--.Esto no aparece-->
+                    <TextBlock Margin="850,80,0,0" Foreground="Blue">Modificar este curso</TextBlock>
+                  
 
 
                     <Button
@@ -53,7 +53,7 @@
 
                     <!--  Botón de eliminar  Curso  -->
                     <TextBlock Margin="850,10,0,0" Foreground="Red">Eliminar ste curso</TextBlock>
-                    <!--.Esto no aparece-->
+                   
                     <Button
                 x:Name="DeleteButton"
                 Margin="0,10,20,0"

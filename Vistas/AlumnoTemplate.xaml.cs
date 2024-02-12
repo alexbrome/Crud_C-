@@ -57,7 +57,7 @@ namespace trabajointerfaces.Vistas
         //Registrar Alumno
         private void btn_RegistrarALumno(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine($"entra en el metodo registrar alumno");
+          
             Alumno MiALumno = new Alumno(
                 txtDni.Text,
                 txtNombre.Text,

@@ -85,9 +85,10 @@ namespace trabajointerfaces.Vistas
             Frame.GoBack();
         }
 
+
+        //metodo para editar curso
         private void Btn_EditarCurso(object sender, RoutedEventArgs e)
         {
-
             Frame.Navigate(typeof(CrearCurso), Curso, new SuppressNavigationTransitionInfo());
         }
 

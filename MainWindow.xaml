@@ -64,7 +64,16 @@
                         <TextBlock Text="Contacto"/>
                     </StackPanel>
                 </NavigationViewItem>
-                </NavigationView.MenuItems>
+
+                <NavigationViewItem   Tag="Ayuda" >
+                    <StackPanel Orientation="Horizontal">
+                      
+                        <FontIcon Glyph="&#xE897;" />
+                        <TextBlock Text="Ayuda"/>
+                    </StackPanel>
+                </NavigationViewItem>
+
+            </NavigationView.MenuItems>
 
 
                     <!--Content Frame para el cambio de pantalla-->

@@ -12,6 +12,9 @@
     <EnableMsixTooling>true</EnableMsixTooling>
   </PropertyGroup>
   <ItemGroup>
+    <Content Remove="Assets\index.html" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="Vistas\AlumnoTemplate.xaml" />
     <None Remove="Vistas\Contacto.xaml" />
     <None Remove="Vistas\CrearCurso.xaml" />

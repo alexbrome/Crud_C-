@@ -35,8 +35,7 @@ namespace trabajointerfaces
             
         }
 
-       
-           
+
         private void NvSample_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args) 
         {
             
@@ -61,7 +60,14 @@ namespace trabajointerfaces
                  case "CrearCurso":
                     contentFrame.Navigate(typeof(CrearCurso));
                     break;
-
+                case "Ayuda":
+                    String url = "C:\\Users\\alexb\\Desktop\\crudc#\\trabajointerfaces\\Assets\\index.html";
+                    System.Diagnostics.Process.Start(
+                        new System.Diagnostics.ProcessStartInfo { 
+                        FileName = url,
+                        UseShellExecute = true }
+                        );
+                    break;
             }
         }
 

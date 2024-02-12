@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page x:ConnectionId='1'
+    x:Class="trabajointerfaces.Vistas.DetalleCurso"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:trabajointerfaces.Vistas"
+    xmlns:local1="using:trabajointerfaces.Modelo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="BlueViolet"
+   >
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid x:ConnectionId='2'
+            x:Name="headerBackground"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Background="{ThemeResource SystemControlAcrylicElementBrush}"
+                Margin="0,40,0,0">
+
+
+                    <!--Boton de volver atras-->
+                    <Button x:ConnectionId='13'
+                x:Name="GoBackButton"
+                Margin="10,10,10,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                                        >
+                        <FontIcon Glyph="&#xE72B;" />
+                    </Button>
+
+                    <!--  Botón de editar  Curso -->
+                    <TextBlock Margin="850,80,0,0" Foreground="Blue">Modificar este curso</TextBlock>
+                  
+
+
+                    <Button x:ConnectionId='14'
+                x:Name="EditButton"
+                Margin="0,80,10,0"               
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="Blue"
+                                       >
+                        <FontIcon Glyph="&#xE70F;" />
+                    </Button>
+
+                    <!--  Botón de eliminar  Curso  -->
+                    <TextBlock Margin="850,10,0,0" Foreground="Red">Eliminar ste curso</TextBlock>
+                   
+                    <Button x:ConnectionId='15'
+                x:Name="DeleteButton"
+                Margin="0,10,20,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="Red"
+                                         >
+                        <FontIcon Glyph="&#xE74D;"/>
+                    </Button>
+                </Grid>
+
+                <Grid x:ConnectionId='3' x:Name="headerContent" Margin="220,52,20,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+
+
+                    <StackPanel x:ConnectionId='4'
+                x:Name="coordinatedPanel"
+                Grid.Column="1"
+                Margin="20,10,280,0"
+                VerticalAlignment="Top"
+                    Background="Black">
+
+                        <TextBlock x:ConnectionId='5'
+                    Margin="20,20,0,10"
+                    Style="{ThemeResource SubheaderTextBlockStyle}"
+                                                 />
+
+                        <!--  titulo alumno  -->
+
+                        <TextBlock x:ConnectionId='6'
+                    x:Name="tituloalumno"
+                    Margin="20,10,10,0"
+                    Style="{ThemeResource SubheaderTextBlockStyle}"
+                    Text="Alumnos" />
+
+                        <!--Lista alumnos-->
+
+                        <ListView x:ConnectionId='7'
+                    x:Name="listaAlumnos"
+                    Grid.Row="1"
+                    Margin="20,0,10,20"                      
+                                                                 
+                    SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate                           >
+                                    <StackPanel x:ConnectionId='9' Margin="0,30,0,40">
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock
+                                        FontWeight="Light"
+                                        Style="{ThemeResource BodyStrongTextBlockStyle}"
+                                        Text="Dni: " />
+                                            <TextBlock x:ConnectionId='12'
+                                        Margin="5,0,0,0"
+                                        Style="{ThemeResource BodyStrongTextBlockStyle}"
+                                                            />
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock
+                                        FontWeight="Light"
+                                        Style="{ThemeResource BodyStrongTextBlockStyle}"
+                                        Text="Nombre: " />
+                                            <TextBlock x:ConnectionId='11'
+                                        Margin="5,0,0,0"
+                                        Style="{ThemeResource BodyStrongTextBlockStyle}"
+                                                               />
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock
+                                        FontWeight="Light"
+                                        Style="{ThemeResource BodyStrongTextBlockStyle}"
+                                        Text="Apellido " />
+                                            <TextBlock x:ConnectionId='10'
+                                        Margin="5,0,0,0"
+                                        Style="{ThemeResource BodyStrongTextBlockStyle}"
+                                                                 />
+                                        </StackPanel>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Page>
+
