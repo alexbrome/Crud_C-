@@ -63,10 +63,12 @@ namespace trabajointerfaces
                 case "Ayuda":
                     String url = "C:\\Users\\alexb\\Desktop\\crudc#\\trabajointerfaces\\Assets\\index.html";
                     System.Diagnostics.Process.Start(
-                        new System.Diagnostics.ProcessStartInfo { 
-                        FileName = url,
-                        UseShellExecute = true }
-                        );
+                        new System.Diagnostics.ProcessStartInfo
+                        {
+                            FileName = url,
+                            UseShellExecute = true
+                        }
+                        ) ;
                     break;
             }
         }
