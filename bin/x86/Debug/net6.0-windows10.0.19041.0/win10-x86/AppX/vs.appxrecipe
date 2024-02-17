@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\alexb\Desktop\crudc#\trabajointerfaces\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-12T10:30:21.388</Modified>
+      <Modified>2024-02-17T20:02:19.264</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\alexb\Desktop\crudc#\trabajointerfaces\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-12T10:30:21.104</Modified>
+      <Modified>2024-02-17T20:02:19.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexb\Desktop\crudc#\trabajointerfaces\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\trabajointerfaces.runtimeconfig.json">
       <PackagePath>trabajointerfaces.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexb\Desktop\crudc#\trabajointerfaces\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\trabajointerfaces.dll">
       <PackagePath>trabajointerfaces.dll</PackagePath>
-      <Modified>2024-02-12T10:30:20.961</Modified>
+      <Modified>2024-02-17T20:02:18.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexb\Desktop\crudc#\trabajointerfaces\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>trabajointerfaces.exe</PackagePath>
-      <Modified>2024-02-12T10:30:20.975</Modified>
+      <Modified>2024-02-17T20:02:18.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexb\Desktop\crudc#\trabajointerfaces\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\trabajointerfaces.deps.json">
       <PackagePath>trabajointerfaces.deps.json</PackagePath>
-      <Modified>2024-02-12T10:27:54.078</Modified>
+      <Modified>2024-02-12T19:18:06.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexb\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.24\runtimes\win-x86\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

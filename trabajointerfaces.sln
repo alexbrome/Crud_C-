@@ -5,6 +5,14 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "trabajointerfaces", "trabajointerfaces.csproj", "{1AA15768-A21A-41D2-B9BD-FF7D6C358B90}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imagenes", "Imagenes", "{EC2E1AD9-5FFB-4439-86FA-C43A62FB6D52}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\programacion.jpg = ..\..\programacion.jpg
+		..\..\programar2.jpg = ..\..\programar2.jpg
+		..\..\programar3.jpg = ..\..\programar3.jpg
+		..\..\progrmar4.jpg = ..\..\progrmar4.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

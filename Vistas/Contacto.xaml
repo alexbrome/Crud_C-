@@ -10,6 +10,7 @@
     Background="BlueViolet">
 
     <Grid>
+        <Image Source="C:\Users\alexb\Desktop\programar3.jpg" Stretch="UniformToFill" Opacity="0.4" />
         <StackPanel
             Margin="10"
             HorizontalAlignment="Center"

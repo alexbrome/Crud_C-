@@ -7,31 +7,31 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="BlueViolet"
+    
     >
     <!--{ThemeResource ApplicationPageBackgroundThemeBrush}-->
-  
    
-    <ListView x:ConnectionId='2'
+
+        <ListView x:ConnectionId='2'
         x:Name="collection"
         Grid.Row="2"
         IsItemClickEnabled="True"
                                         
                                   
         SelectionMode="None">
-        <ListView.ItemTemplate>
-            
-            <DataTemplate                          >
-                
-                <Grid x:ConnectionId='4' Margin="0,12,0,12"                                            >
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" MinWidth="150" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
+            <ListView.ItemTemplate>
 
-                    <StackPanel Grid.Column="1" Margin="30,40,150,10" Background="LightGray" >
-                        
-                        <TextBlock x:ConnectionId='5' 
+                <DataTemplate                          >
+
+                    <Grid x:ConnectionId='4' Margin="0,12,0,12"                                            >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" MinWidth="150" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="1" Margin="30,40,150,10" Background="LightGray" >
+
+                            <TextBlock x:ConnectionId='5' 
                              x:Name="connectedElement"
                             Margin="100,20,180,6"
                             HorizontalAlignment="Left"
@@ -39,17 +39,17 @@
                                                   
                             Foreground="Blue"
                             />
-                    </StackPanel>
-                </Grid>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
-
-  
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
    
-      
-   
+
+
+
+
 
 
 </Page>

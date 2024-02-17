@@ -7,9 +7,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+   
 
-    <Grid Background="BlueViolet" >
+    <Grid>
+       
+
         <Grid HorizontalAlignment="Center" VerticalAlignment="Center"  >
+            <Image Source="C:\Users\alexb\Desktop\programar3.jpg" Stretch="UniformToFill" Opacity="0.4" />
             <StackPanel Orientation="Vertical"  Margin="00,0,0,0" >
                 
                 <!--  Texto del título  -->

@@ -8,11 +8,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="BlueViolet"
    >
+    
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <Grid>
+            
             <Grid>
+                
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="*" />
@@ -24,7 +26,7 @@
             VerticalAlignment="Stretch"
             Background="{ThemeResource SystemControlAcrylicElementBrush}"
                 Margin="0,40,0,0">
-
+                    <Image Source="C:\Users\alexb\Desktop\progrmar4.jpg" Stretch="UniformToFill" Opacity="0.4" />
 
                     <!--Boton de volver atras-->
                     <Button x:ConnectionId='13'
@@ -37,24 +39,24 @@
                     </Button>
 
                     <!--  Botón de editar  Curso -->
-                    <TextBlock Margin="850,80,0,0" Foreground="Blue">Modificar este curso</TextBlock>
+                   <!-- <TextBlock Margin="850,80,0,0" Foreground="Blue">Modificar este curso</TextBlock>-->
                   
 
 
-                    <Button x:ConnectionId='14'
+                    <!--<Button
                 x:Name="EditButton"
                 Margin="0,80,10,0"               
                 HorizontalAlignment="Right"
                 VerticalAlignment="Top"
                 Background="Blue"
-                                       >
+                Click="Btn_EditarCurso">
                         <FontIcon Glyph="&#xE70F;" />
-                    </Button>
+                    </Button>-->
 
                     <!--  Botón de eliminar  Curso  -->
                     <TextBlock Margin="850,10,0,0" Foreground="Red">Eliminar ste curso</TextBlock>
                    
-                    <Button x:ConnectionId='15'
+                    <Button x:ConnectionId='14'
                 x:Name="DeleteButton"
                 Margin="0,10,20,0"
                 HorizontalAlignment="Right"
@@ -76,9 +78,9 @@
                     <StackPanel x:ConnectionId='4'
                 x:Name="coordinatedPanel"
                 Grid.Column="1"
-                Margin="20,10,280,0"
+                Margin="20,30,450,0"
                 VerticalAlignment="Top"
-                    Background="Black">
+                    Background="CadetBlue">
 
                         <TextBlock x:ConnectionId='5'
                     Margin="20,20,0,10"
