@@ -53,7 +53,7 @@ namespace trabajointerfaces.Modelo
         }
 
 
-        // Método para mostrar información del curso
+        // Método para mostrar información del curso(nousado)
         public void MostrarInformacion()
         {
             Console.WriteLine($"Identificador del curso: {Identificador}");

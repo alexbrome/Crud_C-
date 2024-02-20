@@ -16,6 +16,7 @@
             
             <StackPanel Orientation="Vertical"  Margin="00,0,0,0" >
                 <Image Source="C:\Users\alexb\Desktop\programar2.jpg" Stretch="UniformToFill" Opacity="0.8" />
+                
                 <!--  Texto del título  -->
                 <TextBlock
                     VerticalAlignment="Center"

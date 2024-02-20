@@ -61,7 +61,7 @@ namespace trabajointerfaces
                     contentFrame.Navigate(typeof(CrearCurso));
                     break;
                 case "Ayuda":
-                    String url = "C:\\Users\\alexb\\Desktop\\crudc#\\trabajointerfaces\\Assets\\index.html";
+                    String url = "https://alexbrome.github.io/indexC-/";
                     System.Diagnostics.Process.Start(
                         new System.Diagnostics.ProcessStartInfo
                         {
